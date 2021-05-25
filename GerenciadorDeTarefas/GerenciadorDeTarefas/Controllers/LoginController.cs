@@ -27,7 +27,7 @@ namespace GerenciadorDeTarefas.Controllers
             {
                 if (requisicao == null || requisicao.Login == null || requisicao.Senha == null)
                 {
-                    return BadRequest(new ErroRespotaDto()
+                    return BadRequest(new ErroRespostaDto()
                     {
                         Status = StatusCodes.Status400BadRequest,
                         Erro = "Parâmetros de entrada inválidos"
@@ -39,7 +39,7 @@ namespace GerenciadorDeTarefas.Controllers
             catch (Exception excecao)
             {
                 _logger.LogError($"Ocorreu erro ao efetuar login: {excecao.Message}", excecao);
-                return StatusCode(StatusCodes.Status500InternalServerError, new ErroRespotaDto()
+                return StatusCode(StatusCodes.Status500InternalServerError, new ErroRespostaDto()
                 {
                     Status = StatusCodes.Status500InternalServerError,
                     Erro = "Ocorreu erro ao efetuar login, tente novamente!"
