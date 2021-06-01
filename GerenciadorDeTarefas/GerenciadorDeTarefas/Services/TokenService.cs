@@ -14,21 +14,20 @@ namespace GerenciadorDeTarefas.Services
     {
         public static string CriarToken(Usuario usuario)
         {
-            var tokenHadler = new JwtSecurityTokenHandler()
-            var chaveCriptografiaEmBytes = Encoding.ASCII.GetBytes(ChaveJWT.Chave)
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var chaveCriptografiaEmBytes = Encoding.ASCII.GetBytes(ChaveJWT.Chave);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     new Claim(ClaimTypes.Sid, usuario.Id.ToString()),
                     new Claim(ClaimTypes.Name, usuario.Nome)
-
                 }),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(chaveCriptografiaEmBytes), SecurityAlgorithms.HmacSha256Signature)
             };
 
-            var token = tokenHadler.CreateToken(tokenDescriptor);
-            return tokenHadler.WriteToken(token);
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
     }
 }

@@ -27,3 +27,10 @@ D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorD
 D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\obj\Debug\net5.0\ref\GerenciadorDeTarefas.dll
 D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\obj\Debug\net5.0\GerenciadorDeTarefas.pdb
 D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\obj\Debug\net5.0\GerenciadorDeTarefas.genruntimeconfig.cache
+D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Aulas - Devaria\Gerenciador-Tarefas-c-sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
